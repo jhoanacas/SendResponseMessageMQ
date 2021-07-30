@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "211a58c2-f6db-4987-beef-a28f3118c86f",
+		"name": "SendToMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8082/prueba/send-response-message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "123e4567-e89b-12d3-a456-4266141741110000"
+				},
+				"url": {
+					"raw": "localhost:8082/prueba/send-response-message",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"prueba",
+						"send-response-message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
